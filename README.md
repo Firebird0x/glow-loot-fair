@@ -49,15 +49,17 @@ Create a `.env.local` file in the root directory:
 ```env
 # Chain Configuration
 VITE_CHAIN_ID=11155111
-VITE_RPC_URL=https://sepolia.infura.io/v3/b18fb7e6ca7045ac83c41157ab93f990
+VITE_RPC_URL=https://1rpc.io/sepolia
 
 # Wallet Connect Configuration
-VITE_WALLET_CONNECT_PROJECT_ID=2ec9743d0d0cd7fb94dee1a7e6d33475
+VITE_WALLET_CONNECT_PROJECT_ID=your_wallet_connect_project_id
 
 # Contract Addresses (update after deployment)
 VITE_LOOTBOX_CONTRACT_ADDRESS=0x...
 VITE_FHE_CONTRACT_ADDRESS=0x...
 ```
+
+> **Note**: See [ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md) for detailed configuration instructions.
 
 ## 🏗️ Architecture
 
@@ -154,8 +156,8 @@ npm run lint
 2. **Configure Environment Variables**
    ```
    VITE_CHAIN_ID=11155111
-   VITE_RPC_URL=https://sepolia.infura.io/v3/b18fb7e6ca7045ac83c41157ab93f990
-   VITE_WALLET_CONNECT_PROJECT_ID=2ec9743d0d0cd7fb94dee1a7e6d33475
+   VITE_RPC_URL=https://1rpc.io/sepolia
+   VITE_WALLET_CONNECT_PROJECT_ID=your_wallet_connect_project_id
    VITE_LOOTBOX_CONTRACT_ADDRESS=0x...
    ```
 

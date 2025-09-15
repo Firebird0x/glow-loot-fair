@@ -49,9 +49,9 @@ This guide provides step-by-step instructions for deploying Glow Loot Fair to Ve
 
    ```
    VITE_CHAIN_ID=11155111
-   VITE_RPC_URL=https://sepolia.infura.io/v3/b18fb7e6ca7045ac83c41157ab93f990
-   VITE_WALLET_CONNECT_PROJECT_ID=2ec9743d0d0cd7fb94dee1a7e6d33475
-   VITE_INFURA_API_KEY=b18fb7e6ca7045ac83c41157ab93f990
+   VITE_RPC_URL=https://1rpc.io/sepolia
+   VITE_WALLET_CONNECT_PROJECT_ID=your_wallet_connect_project_id
+   VITE_INFURA_API_KEY=your_infura_api_key
    VITE_LOOTBOX_CONTRACT_ADDRESS=
    VITE_FHE_CONTRACT_ADDRESS=
    ```
@@ -175,9 +175,9 @@ If you want to deploy the smart contracts:
 | Variable | Description | Required | Default |
 |----------|-------------|----------|---------|
 | `VITE_CHAIN_ID` | Ethereum chain ID | Yes | 11155111 |
-| `VITE_RPC_URL` | RPC endpoint URL | Yes | Sepolia Infura |
-| `VITE_WALLET_CONNECT_PROJECT_ID` | WalletConnect project ID | Yes | Provided |
-| `VITE_INFURA_API_KEY` | Infura API key | No | Provided |
+| `VITE_RPC_URL` | RPC endpoint URL | Yes | https://1rpc.io/sepolia |
+| `VITE_WALLET_CONNECT_PROJECT_ID` | WalletConnect project ID | Yes | Your Project ID |
+| `VITE_INFURA_API_KEY` | Infura API key | No | Your API Key |
 | `VITE_LOOTBOX_CONTRACT_ADDRESS` | Deployed contract address | No | Empty |
 | `VITE_FHE_CONTRACT_ADDRESS` | FHE contract address | No | Empty |
 
